@@ -14,5 +14,5 @@ jobs:
 
     - name: Build HandBrake Linux
       run: |
-         cmake
+         cmake .
          make
